@@ -48,7 +48,7 @@ public class JobTest {
         assertFalse(job1.equals(job2));
     }
     @Test
-    public void testToStringStartsAndEndsWithBlankLine() {
+    public void testToStringStartsAndEndsWithNewLine() {
        // Job job = new Job("Software Engineer", new Employer("Tech Company"), new Location("New York"),
                 //new PositionType("Full Time"), new CoreCompetency("Java"));
 
@@ -67,8 +67,7 @@ public class JobTest {
                 "Employer: ACME\n" +
                 "Location: Desert\n" +
                 "Position Type: Quality control\n" +
-                "Core Competency: Persistence\n" +
-                "\n";
+                "Core Competency: Persistence\n";
 
         assertEquals(expected, job1.toString());
     }

@@ -116,8 +116,7 @@ public class Job {
                     employerLabel + "\n" +
                     locationLabel + "\n" +
                     positionTypeLabel + "\n" +
-                    coreCompetencyLabel + "\n" +
-                    "\n";
+                    coreCompetencyLabel + "\n";
         } else {
             return "OOPS! This job does not seem to exist.";
         }

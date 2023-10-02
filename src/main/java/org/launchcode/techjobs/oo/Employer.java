@@ -2,9 +2,9 @@ package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
 
-public class Employer {
+public class Employer extends JobField{
 
-    private int id;
+    /*private int id;
     private static int nextId = 1;
     private String value;
 
@@ -23,7 +23,13 @@ public class Employer {
     @Override
     public String toString() {
         return value;
+    }*/
+    public Employer() {
+        super();
     }
+
+    public Employer(String value) {
+        super(value); }
 
     @Override
     public boolean equals(Object o) {  // Two objects are equal if they have the same id.
@@ -40,7 +46,7 @@ public class Employer {
 
     // Getters and Setters:
 
-    public int getId() {
+    /*public int getId() {
         return id;
     }
 
@@ -50,6 +56,6 @@ public class Employer {
 
     public void setValue(String value) {
         this.value = value;
-    }
+    }*/
 
 }
